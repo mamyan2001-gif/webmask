@@ -1,0 +1,12 @@
+id: git-config-exposure
+info:
+  name: Git config exposure
+  severity: medium
+http:
+  - method: GET
+    path:
+      - "/.git/config"
+    matchers:
+      words:
+        - "[core]"
+        - "repositoryformatversion"

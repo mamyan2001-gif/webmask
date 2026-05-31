@@ -1,0 +1,12 @@
+id: env-file-exposure
+info:
+  name: Environment file exposure
+  severity: high
+http:
+  - method: GET
+    path:
+      - "/.env"
+    matchers:
+      words:
+        - "DB_"
+        - "APP_KEY"
