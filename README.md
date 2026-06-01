@@ -8,6 +8,12 @@
 
 > **Legal:** Only scan websites you own or have explicit written permission to test.
 
+## Screenshots
+
+| Dashboard | Scan setup |
+|-----------|------------|
+| ![WebMask dashboard](docs/screenshots/dashboard.png) | ![WebMask scan configuration](docs/screenshots/scan-config.png) |
+
 ## Features
 
 - **43+ security checks** — TLS, headers, CORS, cookies, paths, Nikto-class wordlists, API/GraphQL, DNS, XSS reflection, WebDAV, CRLF, recon, CVE hints, and more
@@ -35,7 +41,7 @@ Browser opens at **http://localhost:5173**.
 Full instructions: **[docs/SETUP.md](docs/SETUP.md)**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/webmask.git
+git clone https://github.com/mamyan2001-gif/webmask.git
 cd webmask
 npm run setup
 npm run start:app
