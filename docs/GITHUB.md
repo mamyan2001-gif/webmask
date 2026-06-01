@@ -88,17 +88,7 @@ git push -u origin main
 
 - README renders with badges and quick-start instructions.
 - **Actions** tab shows the CI workflow (install + client build).
-- Clone URL works: `git clone https://github.com/YOUR_USERNAME/webmask.git`
-
-## 6. Optional — rename local folder
-
-The project may live in a folder named `SiteForge` locally. GitHub repo name can still be `webmask`. After clone, users run:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/webmask.git
-cd webmask
-npm run setup
-```
+- Clone URL works: `git clone https://github.com/mamyan2001-gif/webmask.git`
 
 ## Repository settings (recommended)
 

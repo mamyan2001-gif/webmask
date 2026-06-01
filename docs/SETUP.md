@@ -32,7 +32,7 @@ If macOS blocks the scripts: right-click → **Open** → confirm.
 ### Terminal
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/webmask.git
+git clone https://github.com/mamyan2001-gif/webmask.git
 cd webmask
 
 npm run setup       # first time only
